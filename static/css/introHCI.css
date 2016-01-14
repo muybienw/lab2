@@ -34,7 +34,7 @@ body {
 }
 
 p {
-     font-variant: small-caps;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .project p {
@@ -47,3 +47,12 @@ p {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.footer {
+     padding-top: 2em;
+}
+
+.footer p{
+     text-align: center;
+     color: grey;
+     font-size: smaller;
+}
