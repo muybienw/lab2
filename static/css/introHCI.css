@@ -16,28 +16,22 @@ body {
      padding: 20px;
 }
 
+
+
 .jumbotron {
 	position: relative;
-	background: none;
+     background: url("../images/header_bg.png") no-repeat center center;
+     background-size: cover;
+     text-align: center;
+     color: white;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;	
+.jumbotron img{
+     width: 5em;
 }
 
 .project {
-     margin-left: 20px;
-     background-color: #deebf7;
-     padding: 20px;
-     width: 525px;
+     width: auto;
 }
 
 p {
@@ -48,6 +42,9 @@ p {
      font-variant: small-caps;
 }
 
-#project1 {
-     font-variant: small-caps;
+.thumbnail p {
+     padding-top: 1em;
+     text-align: center;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
